@@ -1,7 +1,8 @@
 Role Name
 =========
 
-Role for campaign manager new feature deployment which includes db and binaries backup.
+Role for campaign manager new feature deployment which includes db backup.
+
 Requirements
 ------------
 
@@ -20,7 +21,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 Example Playbook
 ----------------
 
-OMMAND for syntax validation:
+COMMAND for syntax validation:
 ------------------------------
 ansible-playbook -i hosts cm_site.yml --syntax-check --ask-vault-pass
 
