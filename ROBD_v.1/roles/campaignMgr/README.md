@@ -1,8 +1,7 @@
 Role Name
 =========
 
-Role for campaign manager new feature deployment which includes db backup.
-
+Role for campaign manager new feature deployment which includes db backup and fetch db to local machine.
 Requirements
 ------------
 
@@ -13,6 +12,8 @@ Role Variables
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
+Set the db vars accordingly.
+
 Dependencies
 ------------
 
@@ -21,7 +22,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 Example Playbook
 ----------------
 
-COMMAND for syntax validation:
+OMMAND for syntax validation:
 ------------------------------
 ansible-playbook -i hosts cm_site.yml --syntax-check --ask-vault-pass
 
